@@ -1,4 +1,4 @@
-import AdvanceEditor from "@/components/editor";
+import Editor from "@/components/editor";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
           <h1 className="text-4xl font-semibold">MarkCraft</h1>
           <ThemeToggle />
         </div>
-        <AdvanceEditor />
+        <Editor />
       </div>
     </main>
   );

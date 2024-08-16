@@ -24,11 +24,11 @@ import { slashCommand, suggestionItems } from "./slash-commands";
 
 const extensions = [...defaultExtensions, slashCommand];
 
-interface EditorProp {
+interface AdvancedEditorProp {
   initialValue?: JSONContent;
   onChange: (value: JSONContent) => void;
 }
-const Editor = ({ initialValue, onChange }: EditorProp) => {
+const AdvancedEditor = ({ initialValue, onChange }: AdvancedEditorProp) => {
   const [openNode, setOpenNode] = useState(false);
   const [openColor, setOpenColor] = useState(false);
   const [openLink, setOpenLink] = useState(false);
@@ -102,4 +102,4 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
   );
 };
 
-export default Editor;
+export default AdvancedEditor;
