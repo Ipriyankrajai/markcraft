@@ -74,6 +74,7 @@ const config = {
       },
       boxShadow: {
         "inset-dark": "inset 0 -1px 0 0 #333",
+        "inset-light": "inset 0 -1px 0 0 #e5e5e5",
       },
     },
   },
